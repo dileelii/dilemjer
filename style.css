@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-attachment: red;
+    color: white;
+    font-size: 25px;
+    animation-name: multiAnimatsiya;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+    
+}
+
+@keyframes multiAnimatsiya{
+
+     0% {
+    transform: translateX(100px) rotateZ(0deg);
+  }
+
+  25% {
+    transform: translateX(200px) rotateZ(90deg);
+  }
+
+  50% {
+    transform: translateX(300px) rotateZ(180deg);
+  }
+
+  75% {
+    transform: translateX(400px) rotateZ(270deg);
+  }
+
+  100% {
+    transform: translateX(500px) rotateZ(360deg);
+  }
+
+}
